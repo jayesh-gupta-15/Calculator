@@ -1,0 +1,115 @@
+ #calculator{
+        background-color: rgba(0, 0, 0, 0.797);
+        border: 2px solid black;
+        border-radius: 1em;
+
+        width: 350px;
+        margin: auto;
+        margin-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+
+    #displayScreen{
+
+        flex-grow: 1;
+
+        padding: 0.4em;
+        height: 2em;
+
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border: none;
+
+        background-color: rgba(0, 0, 0, 0.187);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+
+
+    }
+
+    #buttons{
+
+        margin: 1em;
+        /* border: 2px solid wheat; */
+        display: grid;
+
+        grid-template-columns: repeat(4 , max-content);
+        gap: 3px;
+
+    }
+
+    #operandButton , #intButton{
+        border-radius: 50px;
+        /* height: 4em;
+        width: 4em; */
+
+        height: 75px;
+        width: 75px;
+
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+
+        border: 2px solid black;
+
+        
+    }
+
+    #operandButton{
+        color : white;
+        background-color: rgba(248, 165, 10, 0.868);
+    }
+
+    #intButton{
+
+        color : white;
+        background-color: rgba(119, 111, 97, 0.868);
+    }
+
+
+    #clearButton{
+        border-radius: 50px;
+        height: 75px;
+        width: 75px;
+
+        border: none;
+        margin: 2px;
+
+        color : white;
+        background-color: rgba(241, 55, 26, 0.868);
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #outputButton{
+        border-radius: 50px;
+        height: 75px;
+        width: 75px;
+
+        border: none;
+        margin: 2px;
+
+        color : white;
+        background-color: rgba(178, 213, 64, 0.868);
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #delButton{
+        border-radius: 50px;
+        height: 75px;
+        width: 75px;
+
+        border: none;
+        margin: 2px;
+
+        color : white;
+        background-color: rgba(70, 163, 222, 0.868);
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+

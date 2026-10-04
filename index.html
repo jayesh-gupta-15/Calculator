@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "calculator">
+       <input id = "displayScreen" readonly></input>
+       <div id = "buttons">
+        <button id = "operandButton" onclick="getInput('+')">+</button>
+        <button id = "intButton" onclick="getInput('7')">7</button>
+        <button id = "intButton" onclick="getInput('8')">8</button>
+        <button id = "intButton" onclick="getInput('9')">9</button>
+        <button id = "operandButton" onclick="getInput('-')">-</button>
+        <button id = "intButton" onclick="getInput('4')">4</button>
+        <button id = "intButton" onclick="getInput('5')">5</button>
+        <button id = "intButton" onclick="getInput('6')">6</button>
+
+        <button id = "operandButton" onclick="getInput('*')">x</button>
+        <button id = "intButton" onclick="getInput('1')">1</button>
+        <button id = "intButton" onclick="getInput('2')">2</button>
+        <button id = "intButton" onclick="getInput('3')">3</button>
+        
+        <button id = "operandButton" onclick="getInput('/')">/</button>
+        <button id = "intButton" onclick="getInput('0')">0</button>
+        <button id = "intButton" onclick="getInput('.')">.</button>
+        <button id = "clearButton" onclick="clearScreen()">C</button>
+        
+        <button id = "outputButton" onclick="printResult()">=</button>
+        <button id = "outputButton" style="background-color: transparent"></button>
+        <button id = "outputButton" style="background-color: transparent"></button>
+        <button id = "delButton" onclick="deleteLastInput()">DEL</button>
+
+       </div>
+    </div>
+
+    
+    <script  src = "code.js"></script> 
+    
+</body>
+</html>
