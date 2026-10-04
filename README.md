@@ -3,7 +3,7 @@
 A simple  calculator built using **HTML, CSS, and JavaScript**.  
 This project performs basic arithmetic operations and provides a clean, easy-to-use interface.
 
-## 🚀 Features
+## Features
 
 -  Addition
 -  Subtraction
@@ -41,7 +41,7 @@ Calculator/
 
 No additional installation or dependencies are required.
 
-## 📸 Preview
+## Preview
 
 <img width="354" height="404" alt="image" src="https://github.com/user-attachments/assets/0326ddce-c896-423f-9b85-07193ecc16db" />
 
